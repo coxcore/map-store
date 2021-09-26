@@ -1,0 +1,14 @@
+{
+  "endOfLine": "auto",
+  "singleQuote": true,
+  "tabWidth": 4,
+  "useTabs": false,
+  "overrides": [
+    {
+      "files": ["*.json", "*.css", "*.md"],
+      "options": {
+        "tabWidth": 2
+      }
+    }
+  ]
+}
