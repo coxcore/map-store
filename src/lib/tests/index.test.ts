@@ -1,5 +1,7 @@
-import Library from '../index';
+import { KeyMap, KeyStore, MapStore } from '../index';
 
 it('Runs without crashing', () => {
-    new Library();
+    new KeyMap();
+    new KeyStore();
+    new MapStore();
 });
