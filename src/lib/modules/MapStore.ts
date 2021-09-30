@@ -164,7 +164,3 @@ export default class MapStore extends Map {
         return this;
     }
 }
-
-export { EventEmitter, ACTION, ACTION_UPDATE, ACTION_DELETE };
-
-export type { EventName, Event, StoreEvent, EventListener };

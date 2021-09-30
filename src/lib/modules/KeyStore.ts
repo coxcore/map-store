@@ -152,7 +152,3 @@ export default class KeyStore extends KeyMap {
         return this;
     }
 }
-
-export { KeyMap, EventEmitter, ACTION, ACTION_UPDATE, ACTION_DELETE };
-
-export type { EventName, Event, StoreEvent, EventListener };

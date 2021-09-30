@@ -1,16 +1,12 @@
-import MapStore, {
-    EventEmitter,
+export type {
     EventName,
     Event,
     StoreEvent,
     EventListener,
-    ACTION,
-    ACTION_UPDATE,
-    ACTION_DELETE,
-} from './modules/MapStore';
-import KeyStore, { KeyMap } from './modules/KeyStore';
+} from './modules/EventEmitter';
 
-export { MapStore, KeyMap, KeyStore, EventEmitter };
-export { ACTION, ACTION_UPDATE, ACTION_DELETE };
-export type { EventName, Event, StoreEvent, EventListener };
-export default MapStore;
+export { ACTION, ACTION_UPDATE, ACTION_DELETE } from './modules/static';
+export { default as EventEmitter } from './modules/EventEmitter';
+export { default as KeyStore } from './modules/KeyStore';
+export { default as KeyMap } from './modules/KeyMap';
+export { default, default as MapStore } from './modules/MapStore';
